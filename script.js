@@ -1,5 +1,5 @@
-let passwordLength=(8 - 128)
-let symbolArr=[' ','!','"','#','$','%','&',',','(',')','*','+',',','-','.','/',':',';','<','=','>','?','@','[',']','/','^','_','{','}','~']
+
+let symbolArr=['!','"','#','$','%','&',',','(',')','*','+',',','-','.','/',':',';','<','=','>','?','@','[',']','/','^','_','{','}','~']
 let lowerCaseArr= ['a','b','c','d','e','f','j','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',]
 let upperCaseArr= ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 let numberArr= ['1','2','3','4','5','6','7','8','9','0']
@@ -39,7 +39,11 @@ console.log(userChoiceArr);
   }
   console.log(userChoiceArr);
 }
-
+/* 
+validate the user input
+if else statement= if pw length>8 <128
+let pw length=prompt "re enter number 8-128"
+*/
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
